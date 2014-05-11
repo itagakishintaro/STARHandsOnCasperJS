@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Reservation</title>
+    <link href='css/custom.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>予約を完了しました。</h1>
+
+        <div id="slide1" class="well">
+            <div id="errorcheck_result" style="color:red"></div>
+            <hr>
+            <button id="returnto_checkInfo" type="sender" class="btn" style="margin-bottom:20px">戻る</button>
+            <div id="billing" style="display:none; margin-bottom:20px"></div>
+            <div id="reservation" style="display:none; margin-bottom:20px">
+            </div>
+        </div>
+        <footer>
+            <!--Start second row of columns-->
+            &copy;2013 STAR HOTEL.
+        </footer>
+    </div>
+    <!-- /container -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/jquery.query.js"></script>
+    <script src="js/dateValidate.js"></script>
+    <script src="js/reserveApp.js"></script>
+    <script src="js/reserveAppView.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    $("#returnto_checkInfo").click(function() {
+        history.back();
+    })
+
+    $(function() {　 //init
+
+    });
+
+    </script>
+
+
+</body>
+
+</html>

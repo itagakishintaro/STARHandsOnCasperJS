@@ -1,0 +1,22 @@
+body{
+	background-color: #F5F5DC;
+}
+
+h3 {
+	margin-bottom: 5px;
+	background-color: #F5F5F5;
+}
+
+h4 {
+	margin: 2px;
+	font-weight: normal;
+}
+
+form {
+	border: 1px gray dotted;
+	padding: 5px;
+}
+
+.container{
+	margin: 20px;
+}

@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>IntroWork</title>
+<script>
+function showClickedText() {
+  var clickedText = document.getElementById('clicked_text');
+  clickedText.hidden = false;
+}
+</script>
+
+</head>
+<body>
+<form>
+<h3>入門課題その2：「クリックしてみよう」</h3>
+<div style="padding: 30px; margin-bottom: 100px; border: 1px solid #333333;">
+<button type="button" id="ok_button" onclick="showClickedText()">OK</button>
+<div id="clicked_text" hidden=true>「OK」ボタンがクリックされました!</div>
+</div>
+</form>
+</body>
+</html>
